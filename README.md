@@ -1,5 +1,7 @@
 # Python Week
 
+Rewrite of spaced repetition app in Python language
+
 # MVP
   * Users can create an account
   * Users can add questions and answers to list
