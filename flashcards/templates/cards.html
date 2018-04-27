@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>Cards</h1>
+  <ul>
+    {% for card in cards %}
+      <li class="list-group-item"><a href="card/{{card.id}}">{{card.question}}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}

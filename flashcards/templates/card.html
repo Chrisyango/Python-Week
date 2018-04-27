@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>{{ card.question }}</h1>
+  <small>Written by {{ card.author }} on {{ card.create_date }}</small>
+  <hr>
+  <div>
+    {{ card.answer | safe }}
+  </div>
+{% endblock %}

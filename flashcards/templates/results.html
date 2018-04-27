@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>Results</h1>
+  You got {{session.correct}} out of {{session.question}} questions correct.
+  <br>
+  <a href="/dashboard" class="btn btn-success pull-right">Home</a>
+  <a href="/quiz" class="btn btn-primary pull-right">Try again</a>
+{% endblock %}
